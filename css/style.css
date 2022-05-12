@@ -15,10 +15,6 @@ header {
     min-height: 100vh;
 }
 
-.cabecalho {
-    padding-left: 20px;
-}
-
 .cabecalho h1 {
     padding-top: 20px;
     padding-right: 35px;
@@ -33,5 +29,14 @@ header {
     padding-top: 15px;
     line-height: 1em;
     font-size: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo {
+    padding-left: 20px;
 }
     
