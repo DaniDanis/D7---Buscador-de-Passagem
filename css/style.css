@@ -7,7 +7,8 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     box-sizing: border-box;
 }
 
@@ -134,3 +135,30 @@ form button {
     flex-grow: 1;
     margin-right: 15px;
 }
+
+.imagemBusao {
+    display: flex;
+    justify-content: center;
+}
+
+.busao {
+    display: flex;
+    width: 75%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menuInferior {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 15px;
+}
+
+.divMenuInferior {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    color: #c1c1c1;
+}
+
