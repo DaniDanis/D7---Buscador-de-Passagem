@@ -68,11 +68,11 @@ header a {
 .formulario {
     display: flex;
     justify-content: space-around;
-    gap: 0.5rem;
+    gap: 1.5rem;
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 5px;
-    
+   
 }
 
 .menus {
@@ -88,12 +88,14 @@ header a {
 }
 
 .menus label {
-    color: #424242;
+    color: #ff0778;
+    font-weight: bold;
+    font-size: 0.875rem;
 }
 
 .icone_e_input {
     display: flex;
-    flex-basis: 35px;
+    flex-basis: 40px;
     flex-direction: row;
     width: 100%;
     border-radius: 5px;
@@ -112,4 +114,23 @@ header a {
 .cabecalho {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+form button {
+    color: white;
+    background-color: #ff0778;
+    flex-basis: 44px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: #ad1457 solid 1.5px;
+}
+
+.flexinhas {
+    display: flex;
+    border: none;
+    background-color: white;
+    color: #0277bd;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 15px;
 }
