@@ -31,7 +31,7 @@ header {
 
 header img {
     margin-left: 20px;
-    height: 100%;
+    
 }
 
 header a {
@@ -44,7 +44,7 @@ header a {
 .background {
     background-color: #ff0778;
     min-height: 100vh;
-    margin-top: 56px;
+    margin-top: 60px;
 }
 
 .cabecalho h1 {
