@@ -153,6 +153,9 @@ form button {
     justify-content: space-around;
     background-color: white;
     padding: 15px;
+    position: fixed;
+    bottom: 0px;
+    width: 93%;
 }
 
 .divMenuInferior {
