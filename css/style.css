@@ -1,3 +1,9 @@
+* {
+    font-family: Roboto,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -15,7 +21,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
+
 }
 
 .background {
@@ -26,7 +33,7 @@ header {
 .cabecalho h1 {
     padding-top: 20px;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 1.75rem;
     color: white;
     line-height: 1.2em;
 }
@@ -35,7 +42,7 @@ header {
     color: white;
     padding-top: 15px;
     line-height: 1em;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .formulario {
@@ -44,19 +51,35 @@ header {
 }
 
 .conteudo {
-    padding-left: 20px;
-    padding-right: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .formulario {
     display: flex;
     justify-content: space-around;
     gap: 0.5rem;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
     
 }
 
 .menus {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.menus input {
+    flex-basis: 35px;
+    border-radius: 5px;
+    border:  1.5px solid;
+    border-color: #c1c1c1;
+}
+
+.menus label {
+    color: #424242;
 }
     
