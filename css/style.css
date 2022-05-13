@@ -1,13 +1,21 @@
-* {
+body, html {
     margin: 0;
     padding: 0;
+    height: 100vh;
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .background {
@@ -17,7 +25,6 @@ header {
 
 .cabecalho h1 {
     padding-top: 20px;
-    padding-right: 35px;
     text-transform: uppercase;
     font-size: 25px;
     color: white;
@@ -38,5 +45,18 @@ header {
 
 .conteudo {
     padding-left: 20px;
+    padding-right: 60px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem;
+    
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
 }
     
