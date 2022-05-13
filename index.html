@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Buscador Passagem</title>
+    <script src="https://kit.fontawesome.com/1ba32175c2.js" crossorigin="anonymous"></script>
 </head>
     <header>
         <img src="imgs/logo-buser-cupom.png" alt="">
@@ -21,19 +22,31 @@
             <form action="" class="formulario">
                 <div class="menus">
                     <label for="nome">Saindo de</label>
-                    <input type="text" placeholder="Digite uma cidade" />
+                        <div class="icone_e_input">
+                            <i class="fa-regular fa-circle icone_maldito"></i>                      
+                            <input type="text" placeholder="Digite uma cidade" />
+                        </div>                    
                 </div>
                 <div class="menus">
                     <label for="email">Indo para</label>
-                    <input type="text" placeholder="Digite uma cidade"/>
+                        <div class="icone_e_input">
+                            <i class="fa-solid fa-location-dot icone_maldito"></i>                       
+                            <input type="text" placeholder="Digite uma cidade" />
+                        </div>  
                 </div>
                 <div class="menus">
                     <label for="msg">Data de ida</label>
-                    <input type="text" placeholder="Ida" onclick="(this.type='date')" onblur="(this.type='text')">
+                        <div class="icone_e_input">
+                            <i class="fa-solid fa-calendar-day icone_maldito"></i>
+                        <input type="text" placeholder="Ida" onclick="(this.type='date')" onblur="(this.type='text')">
+                        </div>
                 </div>
                 <div class="menus">
                     <label for="msg">Data de volta</label>
-                    <input type="text" placeholder="Volta" onclick="(this.type='date')" onblur="(this.type='text')">
+                        <div class="icone_e_input">
+                            <i class="fa-solid fa-calendar-day icone_maldito"></i>
+                            <input type="text" placeholder="Volta" onclick="(this.type='date')" onblur="(this.type='text')">
+                        </div>
                 </div>
             </form>
         </div>

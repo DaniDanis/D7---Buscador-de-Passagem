@@ -22,7 +22,18 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100vw;
+    height: 56px;
+}
 
+header img {
+    margin-left: 20px;
+}
+
+header a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ff0778;
+    font-weight: bold;
 }
 
 .background {
@@ -31,7 +42,6 @@ header {
 }
 
 .cabecalho h1 {
-    padding-top: 20px;
     text-transform: uppercase;
     font-size: 1.75rem;
     color: white;
@@ -74,12 +84,32 @@ header {
 
 .menus input {
     flex-basis: 35px;
-    border-radius: 5px;
-    border:  1.5px solid;
-    border-color: #c1c1c1;
+    border: none;
 }
 
 .menus label {
     color: #424242;
 }
+
+.icone_e_input {
+    display: flex;
+    flex-basis: 35px;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 5px;
+    border:  1.5px solid;
+    border-color: #c1c1c1;
+    align-items: center;
+    gap: 1rem;        
+}
+
+.icone_maldito {
+    margin-left: 15px;
+    color: #c1c1c1;
     
+}
+
+.cabecalho {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
