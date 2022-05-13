@@ -27,6 +27,7 @@ header {
     position: fixed;
     top: 0px;
     background-color: white;
+    padding-bottom: 5px;
 }
 
 header img {
